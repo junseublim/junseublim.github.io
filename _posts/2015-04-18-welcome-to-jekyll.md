@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "게시글 예시"
 date:   2015-04-18T14:25:52-05:00
-author: Ben Centra
+author: Jun Seub Lim
 categories: Jekyll
 tags:	jekyll welcome
 cover:  "/assets/instacode.png"
