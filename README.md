@@ -1,3 +1,3 @@
 # JunSeubLim's TIL Blog
 
-[Junseublim's Blog](junseublim.github.io)
+[Junseublim's Blog](http://junseublim.github.io)
