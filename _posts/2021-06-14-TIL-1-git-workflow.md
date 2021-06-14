@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "TIL 1 : Git Workflow"
-date:   2021-06-14T14:25:52-05:00
+date:   2021-06-13T14:25:52-05:00
 author: Jun Seub Lim
 categories: git
-tags:	git
+tags: git
 cover:  "/assets/instacode.png"
 ---
 
