@@ -6,9 +6,23 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 13 Jun 2021 23:28:42 +0900</pubDate>
-    <lastBuildDate>Sun, 13 Jun 2021 23:28:42 +0900</lastBuildDate>
+    <pubDate>Mon, 14 Jun 2021 21:34:33 +0900</pubDate>
+    <lastBuildDate>Mon, 14 Jun 2021 21:34:33 +0900</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>TIL 1 : Git Workflow</title>
+        <description>&lt;h1 id=&quot;git-workflow란&quot;&gt;Git Workflow란?&lt;/h1&gt; &lt;p&gt;Git workflow란 git을 효율적으로 그리고 지속적으로 사용할 수 있도록 도와주는 일종의 방법 혹은 수단이라고 할 수 있다. Git workflow에는 여러 종류가 있으며, 각자 팀에 잘맞는 방법을 채택하면...</description>
+        <pubDate>Sun, 19 Apr 2015 04:25:52 +0900</pubDate>
+        <link>http://localhost:4000/git/2015/04/19/TIL-1-git-workflow.html</link>
+        <guid isPermaLink="true">http://localhost:4000/git/2015/04/19/TIL-1-git-workflow.html</guid>
+        
+        <category>git</category>
+        
+        
+        <category>git</category>
+        
+      </item>
     
       <item>
         <title>게시글 예시</title>
