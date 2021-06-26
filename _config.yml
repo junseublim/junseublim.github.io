@@ -57,9 +57,6 @@ descriptions:
   - cat: jekyll
     desc: "Posts describing Jekyll setup techniques."
 
-  - cat: git
-    desc: "Git 관련된 글들"
-
 # Social icons and sharing options
 #
 # Social settings are used in two places:
