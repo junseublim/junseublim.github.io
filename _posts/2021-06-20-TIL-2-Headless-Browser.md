@@ -9,8 +9,6 @@ tags:
   - testing
 ---
 
-# Headless Browser
-
 # Headless Browser란?
 
 - Headless Browser란 GUI가 없는 브라우저를 의미한다.
