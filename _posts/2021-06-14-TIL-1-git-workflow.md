@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 layout: post
 title:  "TIL 1 : Git Workflow"
 date:   2021-06-13T14:25:52-05:00
@@ -6,6 +7,14 @@ author: Jun Seub Lim
 categories: git
 tags: git
 cover:  "/assets/instacode.png"
+=======
+title:  "TIL 1: Git Workflow"
+last_modified_at: 2021-06-13T14:25:52-05:00
+categories:
+  - Git
+tags:
+  - git
+>>>>>>> fa908df3795d425815a36aede7c3a5adf283c964
 ---
 
 # Git Workflow란?
@@ -106,4 +115,8 @@ Gitflow는 `main`, `develop` 2개의 브랜치로 프로젝트의 history를 기
 
 
 
+<<<<<<< HEAD
 출처 : https://www.atlassian.com/git/tutorials/comparing-workflows
+=======
+원문 : [https://www.atlassian.com/git/tutorials/comparing-workflows](https://www.atlassian.com/git/tutorials/comparing-workflows)
+>>>>>>> fa908df3795d425815a36aede7c3a5adf283c964
