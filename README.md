@@ -1,3 +1,3 @@
 # Junseub's Blog
 
-[Link](junseublim.github.io)
+[Link](https://junseublim.github.io/)
