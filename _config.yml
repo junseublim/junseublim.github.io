@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : 오늘 하루 배운 것을 끄적이는 블로그
 name                     : "Jun Seub Lim"
 description              : "오늘 하루 배운 것을 끄적이는 블로그"
-url                      : https://junseublim.github.io
+url                      : "https://junseublim.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
