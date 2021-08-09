@@ -8,22 +8,24 @@ tags:
 ---
 # Webpack이란?
 
-모던 JavaScript 애플리케이션을 위한 정적 모듈 번들러. 내부적으로는 프로젝트에 필요한 모든 모듈을 매핑하고 하나 이상의 번들을 생성하는 디펜던시 그래프를 만든다.
+웹팩이란 모던 JavaScript 애플리케이션을 위한 `정적 모듈 번들러`이다. 모듈 번들러란 웹 애플리케이션을 구성하는 자원들을 하나(혹은 그 이상)의 번들으로 만드는 도구를 의미한다. 
 
+## 모듈이란?
+  - 분리된 각각의 기능 덩어리
+  - 잘 작성된 모듈은
+      - 견고한 추상화와 캡슐화의 경계를 만든다
+      - 일관성 있는 설계를 가진다
+      - 명확한 목적을 가진다
+  - Webpack Modules
+      - Node.js와는 다르게 의존성을 다양한 방식으로 표현 가능하다
+          - ES6 import
+          - CommonJs require()
+          - AMD define and require
+          - @import statement inside of a css/sass/less
+          - image url in stylesheet or html file
 
-- 모듈이란 무엇일까
-    - 분리된 각각의 기능 덩어리
-    - 잘 작성된 모듈은
-        - 견고한 추상화와 캡슐화의 경계를 만든다
-        - 일관성 있는 설계를 가진다
-        - 명확한 목적을 가진다
-    - **Webpack Modules**
-        - Node.js와는 다르게 의존성을 다양한 방식으로 표현 가능하다
-            - ES6 import
-            - CommonJs require()
-            - AMD define and require
-            - @import statement inside of a css/sass/less
-            - image url in stylesheet or html file
+## 웹팩의 등장 배경
+
 
 ## Core Concepts
 
@@ -39,7 +41,7 @@ tags:
     };
     ```
 
-    - multi-main entry : entry에 배열을 넘겨줄수도 있다.
+    - multi-main entry : entry에 배열을 넘겨줄수도 있다. 이와 같이 엔트리를 여러개 만든다면 멀티 페이지 애플리케이션을 개발할 수 있다.
 
     ```jsx
     module.exports = {
@@ -108,6 +110,7 @@ tags:
 - **Mode**
     - development, production, none중 하나로 설정.
     - 각 환경에 맞는 웹팩의 built-in 최적화 기능을 사용할 수 있다
+      - 개발 모드인 경우 개발자들이 좀 더 보기 편하게 웹팩 로그나 결과물이 보여지고, 배포 모드인 경우에는 성능 최적화를 위한 기본적인 파일 압축 등의 빌드 과정이 추가된다.
     - default : production
     - config 파일에서 설정하거나 CLI에서 옵션으로 넘겨줄 수 있다.
 
@@ -135,3 +138,16 @@ tags:
     - inline-source-map
         - good for illustrative purpose
         - not good for production
+
+- **Tree** **Shaking**
+  - Tree Shaking이란 죽은 코드(dead code)를 제거하는 것을 의미한다. 즉, 디펜덴시 그래프에서 사용되지 않는 코드들을 제거해주는 것이다. 이를 통해 번들 크기를 최소화 할 수 있다.
+  - 다만 트리쉐이킹은 ESM에서만 잘 작동하기 때문에, 만약 Babel을 사용한다면 ESM을 CommonJS로 트랜스파일링을 하는 기능을 제거해야 한다.
+  ```js
+  const presets = [
+    '@babel/preset-env',
+    {
+      // ...
+      modules: false
+    }
+  ]
+  ```
