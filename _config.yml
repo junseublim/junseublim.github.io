@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : 오늘 하루 배운 것을 끄적이는 블로그
 name                     : "Jun Seub Lim"
 description              : "오늘 하루 배운 것을 끄적이는 블로그"
-url                      : https://junseublim.github.io/
+url                      : https://junseublim.github.io
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -64,7 +64,7 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification :
+google_site_verification : "RBuARuk62u3D4AMZ98rJOeOltFRcSgEk71ZCU08nRYM"
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
