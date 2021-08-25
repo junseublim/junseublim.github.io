@@ -74,32 +74,32 @@ Gitflow는 `main`, `develop` 2개의 브랜치로 프로젝트의 history를 기
 ```
 
 4. Release Branches: `develop` 브랜치가 출시를 위한 충분한 기능들을 가지게 되었다면, `release` 브랜치를 develop에서 fork한다. `release` 브랜치를 생성하는 것은 다음 출시 사이클을 시작시키며, 오직 bug fixes, documentation generation 그리고 다른 release-oriented tasks들만이 이 브랜치에 들어갈 수 있다. 
-    ```
-        git checkout develop
-        git checkout -b release/0.1.0
-    ```
+```
+    git checkout develop
+    git checkout -b release/0.1.0
+```
     출시 준비가 끝나면, `release` 브랜치는 `main` 브랜치로 merge 되며, 새로운 버전 number가 tag된다. 또한, `develop` 브랜치로 다시 merge 되어야 한다.
-    ```
-        git checkout main
-        git merge release/0.1.0
-    ```
+```
+    git checkout main
+    git merge release/0.1.0
+```
 
     출시 준비를 위해 하나의 다른 브랜치를 사용하는 것은 다른 팀들이 새로운 기능 개발에 동시에 착수할 수 있게 해준다.
 
 5. Hotfix Branches : `hotfix` 브랜치들은 빠르게 코드를 고치기 위해 사용된다. `release` 브랜치와 유사하지만, `main` 브랜치에서 fork된다는 점이 다르다. 
-    ```
-        git checkout main
-        git checkout -b hotfix_branch
-    ```
+```
+    git checkout main
+    git checkout -b hotfix_branch
+```
     Fix가 완료되면, 바로 `main`과 `develop`에 merge 되어야 한다. 또한 `main`에는 새로운 버전 번호가 태그된다.
 
-    ```
-    git checkout main
-    git merge hotfix_branch
-    git checkout develop
-    git merge hotfix_branch
-    git branch -D hotfix_branch
-    ```
+```
+git checkout main
+git merge hotfix_branch
+git checkout develop
+git merge hotfix_branch
+git branch -D hotfix_branch
+```
 
     Hotfix는 workflow를 방해하지 않고 빠르게 issue를 해결하도록 도와준다.
 
