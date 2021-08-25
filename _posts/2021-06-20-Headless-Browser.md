@@ -1,5 +1,5 @@
 ---
-title:  "TIL 2: Headless Browser"
+title:  "Headless Browser"
 last_modified_at: 2021-06-20T14:25:52-05:00
 categories:
   - etc

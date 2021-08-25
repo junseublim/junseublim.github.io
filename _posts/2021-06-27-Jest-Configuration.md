@@ -1,5 +1,5 @@
 ---
-title:  "TIL 5: Jest 환경설정 방법"
+title:  "Jest 환경설정 방법"
 last_modified_at: 2021-06-27T14:25:52-05:00
 categories:
   - etc

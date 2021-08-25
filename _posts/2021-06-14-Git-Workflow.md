@@ -1,5 +1,5 @@
 ---
-title:  "TIL 1: Git Workflow"
+title:  "Git Workflow"
 last_modified_at: 2021-06-13T14:25:52-05:00
 categories:
   - Git

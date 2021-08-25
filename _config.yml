@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "kr_KO"
-title                    : "TIL Blog"
+title                    : "개발 이야기"
 title_separator          : "-"
-subtitle                 : 오늘 하루 배운 것을 끄적이는 블로그
+subtitle                 : 배우고 느낀 것들을 기록하는 블로그
 name                     : "Jun Seub Lim"
-description              : "오늘 하루 배운 것을 끄적이는 블로그"
+description              : "배우고 느낀 것들을 기록하는 블로그"
 url                      : https://junseublim.github.io
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -96,7 +96,7 @@ analytics:
 author:
   name             : "Jun"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Future Front-end Developer"
+  bio              : "웹 프론트엔드 개발자"
   location         : "Seoul, korea"
   links:
     - label: "Email"

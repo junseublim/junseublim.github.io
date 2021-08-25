@@ -1,5 +1,5 @@
 ---
-title:  "TIL 8: Functional Programming"
+title:  "Functional Programming"
 last_modified_at: 2021-07-17:T14:25:52-05:00
 categories:
   - functional programming

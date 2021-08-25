@@ -1,5 +1,5 @@
 ---
-title:  "TIL 9: 함수형 JS를 위한 Immutable"
+title:  "함수형 JS를 위한 Immutable"
 last_modified_at: 2021-07-19:T14:25:52-05:00
 categories:
   - immutable
